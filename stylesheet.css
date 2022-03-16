@@ -1,0 +1,177 @@
+stylesheet.css
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+   
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .section-title {
+    text-align: center;
+  }
+
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display:none;
+  }
+
+  .header-right {
+    float: right;
+   
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  
+  
+  
+  .header-logo p{
+    color:#b3aeb5;
+    font-size: 16px;
+    display:flex;
+    float:left;
+    margin-right:50px ;
+  }
+  
+  .btn-wrapper {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .signup {
+    background-color: #239b76;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+  }
+  
+  .twitter {
+    background-color: #55acee;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  .header {
+    background-color :#3b5998;
+    color:#FF7F50;
+    height:70px;
+    padding:30px 30px;
+    padding-top:28px;
+    padding-bottom: 74px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .header-logo {
+    font-family:Fantasy;
+    font-size:30px;
+    float:left;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+    
+ .contents-item {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+ }
+ .contents-item p{
+    font-family:Fantasy;
+    font-size:30px;
+ }
+
+ .main {
+    background-image: url('../IBM/foto.png.png');
+ }
+ .contents{
+    background-image: url('../IBM/foto.png.png');
+
+ }
+ .message-wrapper{
+    background-image: url('../IBM/foto.png.png');
+
+ }
+ .copy-container{
+    text-align: center; 
+ }
+
+
+footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 20px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 22px;
+  list-style: none;
+  float: left;
+  padding: 0px 20px 10px 10px;
+  font-size: 25px;
+}
