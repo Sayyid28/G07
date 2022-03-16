@@ -11,7 +11,7 @@ width: 100%;
 }
 
 
-@media  all and  (max-width: 670px) {
+@media  all and  (max-width: 600px) {
    
     .header {
         text-align: center;
